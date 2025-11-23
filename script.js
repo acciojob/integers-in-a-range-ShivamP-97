@@ -1,7 +1,7 @@
 // write your code here
 function range(start, end) {
 	const result = [];
-	for (let i = start; i <= end; i++) {
+	for (let i = start+1; i < end; i++) {
 		result.push(i);
     }
 	return result;
